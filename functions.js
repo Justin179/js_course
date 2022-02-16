@@ -1,4 +1,27 @@
-// Functions
+// Functions: a set of statements that perform a task
+
+// function getBrand(brand){
+//     console.log(brand);
+//     return{
+//         brand: brand,
+//         site: `www.${brand}.com`
+//     }
+// }
+
+const getBrand = function (brand){
+    console.log(brand);
+    return{
+        brand: brand,
+        site: `www.${brand}.com`
+    }
+}
+
+const brand = getBrand('Nike');
+console.log(brand);
+console.log(JSON.stringify(brand,null,1));
+
+
+
 function addNumbers(number1, number2) {
     var addition = number1 + number2;
     return addition;
