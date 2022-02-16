@@ -7,12 +7,16 @@
 //     console.log("Else condition ran..");
 // }
 
+
+
 var gender = 'FEMALE';
 
 if (gender == 'M') {
     console.log('Male');
 } else if (gender == 'F' || gender == 'FEMALE') {
     console.log('Female');
+} else if (gender == 'FEMALE'){
+    console.log('Female 2');
 } else {
     console.log('Unkown');
 }

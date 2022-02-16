@@ -1,20 +1,42 @@
-let brand = "nike";
-brand = {};
-brand = 10;
-brand = function() {
-    return "hello"
-}
-console.log(brand());
+// v1
+// function brand(a,b){
+//     console.log("Luna")
+// }
+
+// v2
+// const brand = function (a,b){
+//                 console.log("Luna")
+//             };
+
+// v3
+const brand = (a, b) => {
+                console.log(a+b)
+                };
+
+brand(1,2);
+
+
+// let brand = "nike";
+// brand = {}; // 這是一個js物件
+// brand = 10;
+// brand = function() { // function也是一個js物件
+//     return "hello"
+// }
+
+// brand()
+
+// console.log(brand());
+
 
 // change let to const, brand can no longer be reassigned
 // const 即常數，也就是不可以被更改的固定值
 
 
 // can't be reassigned, but add/delete properties is not a problem
-const brandObj = {};
-brandObj["brand"] = brand;
-delete brandObj.brand;
-console.log(brandObj);
+// const brandObj = {};
+// brandObj["brand"] = brand;
+// delete brandObj.brand;
+// console.log(brandObj);
 
 
 // 使用const & let的時機說明

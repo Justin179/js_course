@@ -1,10 +1,10 @@
 // Switch
-var gender = 'Hello';
+var gender = 'M';
 
 switch(gender) {
     case "M":
         console.log('Male');
-        break;
+        break; // 剎車
     case "F":
         console.log('Female');
         break;
